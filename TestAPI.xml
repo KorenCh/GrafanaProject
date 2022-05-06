@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Suite" parallel="false">
+    <test name="api">
+        <parameter name="PlatformName" value="api"></parameter>
+        <classes>
+            <class name="test.GrafanaAPI">
+                <methods>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

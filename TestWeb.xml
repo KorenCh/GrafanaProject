@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Suite" parallel="false">
+    <test name="web">
+        <parameter name="PlatformName" value="web"></parameter>
+        <classes>
+            <class name="test.GrafanaWeb">
+                <methods>
+                    <!--<include name="test1_verify"/>-->
+                    <!--<include name="test2_serverAdminPage"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

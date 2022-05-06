@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- General -->
+    <PlatformName>desktop</PlatformName>
+
+    <!-- Authorization -->
+    <userName>admin</userName>
+    <password>admin</password>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <ImageRepo>C:\Automation\GrafanaProject\ImageRepository\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!-- mobile -->
+    <Udid>152cffd3</Udid>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <urlapi>http://localhost:3000/</urlapi>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:\Users\koren\AppData\Local\Programs\todolist\Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <DesktopServer>http://127.0.0.1:4723</DesktopServer>
+
+</Environment>
